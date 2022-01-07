@@ -6,6 +6,6 @@ server.all('/', (req, res)=>{
 })
 
 function keepAlive(){
-    server.listen(process.env.PORT, ()=>{console.log("ADITYA CODEZ RPC IS READY")});
+    server.listen(process.env.PORT, ()=>{console.log("Insane Codez")});
 }
 module.exports = keepAlive
