@@ -2,7 +2,7 @@ const express = require('express')
 const server = express();
 
 server.all('/', (req, res)=>{
-    res.send("WAIT 3 MINUTES TO SEE YOUR RPC")
+    res.send("Bot is ready!!")
 })
 
 function keepAlive(){
